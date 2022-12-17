@@ -1,0 +1,170 @@
+@font-face {
+  font-family: Sonic;
+  src: url(fonts/Sonic.ttf);
+}
+@font-face {
+  font-family: Pixel-font;
+  src: url(fonts/Pixel-font.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Pixel-font';
+  color: #fff;
+}
+
+body {
+  background-color: #f2c6ab;
+}
+
+.wrapper {
+  width: 1321px;
+  margin: 0 auto;
+}
+
+.item-img {
+  width: 255px;
+  max-height: 349px;
+  margin-right: 21px;
+}
+
+.item-text {
+  text-align: center;
+}
+
+h2 {
+  font-size: 76px;
+}
+
+.item-text p {
+  font-size: 30px;
+}
+
+/* ---- Header ----*/
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #b35c07;
+}
+
+.header .wrapper {
+  display: flex;
+}
+
+.logo {
+  width: 83px;
+  height: 74px;
+}
+
+.header nav ul {
+  display: flex;
+  line-height: 74px;
+}
+
+.header nav ul a {
+  font-size: 22px;
+  margin-left: 30px;
+}
+
+/* ---- main-block ---- */
+
+.main-block {
+  background-image: url('img/main-background.png');
+  height: 1371px;
+  margin-top: 74px;
+}
+.main-block h1 {
+  font-family: 'Sonic';
+  font-size: 76px;
+  color: #c77c57;
+  -webkit-text-stroke: 4px #000;
+  text-align: center;
+  padding-top: 74px;
+}
+
+.main-block .main-text {
+  margin-top: 141px;
+  padding: 32px 0;
+  font-size: 76px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+  margin-bottom: 645px;
+}
+
+/* ---- character-block ---- */
+
+.character-block {
+  height: 1030px;
+  background-image: url('img/character-bg.png');
+  background-repeat: repeat;
+  padding: 135px 0;
+}
+
+.character-block .character-item {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+  padding: 36px;
+  margin-bottom: 73px;
+}
+
+#Haki {
+  margin-top: 100px;
+}
+
+.character-block .character-item .character-text {
+  text-align: center;
+}
+
+/* ---- game-desc-block ---- */
+
+.game-desc-block {
+  background-image: url('img/game-desc-bg.png');
+  padding: 84px 0;
+}
+
+.game-desc-block .game-desc-item {
+  display: flex;
+
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+  padding: 36px;
+  margin-bottom: 60px;
+}
+
+#item1 {
+  padding: 168px 0;
+}
+
+#item2 {
+  padding: 65px 0;
+}
+
+.footer {
+  background-color: #b35c07;
+  line-height: 160px;
+}
+
+.footer .logo {
+  padding: 43px 0;
+}
+
+.footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer nav ul {
+  display: flex;
+}
+
+.footer nav ul li {
+  font-size: 22px;
+  margin-left: 30px;
+}
