@@ -140,11 +140,11 @@ h2 {
 }
 
 #item1 {
-  padding: 168px 0;
+  padding: auto 0;
 }
 
 #item2 {
-  padding: 65px 0;
+  padding: auto 0;
 }
 
 .footer {
@@ -234,8 +234,11 @@ h2 {
     width: auto;
   }
   #item1 {
-    padding: auto 0;
+    padding: 0;
   }
+#item2{
+  padding: 0:
+}
 }
 
 @media screen and (max-width: 512px) {
