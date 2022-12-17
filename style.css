@@ -75,6 +75,7 @@ h2 {
 
 .main-block {
   background-image: url('img/main-background.png');
+  background-position: top center;
   height: 1371px;
   margin-top: 74px;
 }
@@ -167,4 +168,105 @@ h2 {
 .footer nav ul li {
   font-size: 22px;
   margin-left: 30px;
+}
+
+/* ---- media ---- */
+
+@media screen and (max-width: 1321px) {
+  .wrapper {
+    width: 1000px;
+  }
+  .item-text h2 {
+    font-size: 56px;
+  }
+  .item-text p {
+    font-size: 22px;
+  }
+  .item-img {
+    width: 225px;
+    max-height: 349px;
+    margin-right: 21px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    width: 840px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .wrapper .main-text,
+  .character-item,
+  .game-desc-item {
+    width: auto;
+    height: auto;
+  }
+  .main-block h1 {
+    font-size: 56px;
+  }
+
+  .item-text h2 {
+    font-size: 26px;
+  }
+  .main-text p {
+    font-size: 38px;
+  }
+  .item-text p {
+    font-size: 18px;
+  }
+  .item-img {
+    width: 125px;
+    max-height: 219px;
+    margin-right: 11px;
+  }
+  .wrapper {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header nav ul li a,
+  .footer nav ul li {
+    font-size: 16px;
+  }
+  .wrapper {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .main-block h1 {
+    font-size: 36px;
+  }
+  .character-block {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 446px) {
+  .footer nav ul {
+    display: block;
+  }
+  .footer nav {
+    margin-top: 50px;
+  }
+  .footer nav ul li {
+    line-height: normal;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .header nav ul li a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 332px) {
+  .main-block h1 {
+    font-size: 30px;
+  }
+  .header nav ul li a {
+    font-size: 10px;
+  }
 }
